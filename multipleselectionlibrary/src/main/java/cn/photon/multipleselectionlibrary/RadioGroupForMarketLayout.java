@@ -1,4 +1,4 @@
-package cn.photon.multiple;
+package cn.photon.multipleselectionlibrary;
 
 
 import android.content.Context;
@@ -19,17 +19,12 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-
 public class RadioGroupForMarketLayout extends LinearLayout implements CompoundButton.OnCheckedChangeListener, View.OnClickListener {
 
     private static final int S_SELECT = 1;
     private static final int M_SELECT = 2;
-    @BindView(R.id.tv_title)
-    TextView tvTitle;
-    @BindView(R.id.flow_rg)
-    FlowRadioGroup flowRg;
+    private TextView tvTitle;
+    private FlowRadioGroup flowRg;
     private LayoutCheckedistener mListener;
 
     private String mTitle = "标题";
@@ -54,9 +49,9 @@ public class RadioGroupForMarketLayout extends LinearLayout implements CompoundB
         super(context, attrs);
         LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         LinearLayout layout = (LinearLayout) layoutInflater.inflate(R.layout.layout_radio_group_for_market, null);
-        ButterKnife.bind(this, layout);
         addView(layout);
-
+        tvTitle = (TextView) layout.findViewById(R.id.tv_title);
+        flowRg = (FlowRadioGroup) layout.findViewById(R.id.flow_rg);
         DisplayMetrics dm = getResources().getDisplayMetrics();
 //        flowRg.setLayoutParams(new RadioGroup.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, RadioGroup.LayoutParams.MATCH_PARENT));
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.RadioGroupLayout);

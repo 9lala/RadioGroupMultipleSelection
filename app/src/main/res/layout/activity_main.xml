@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <cn.photon.multiple.RadioGroupForMarketLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    <cn.photon.multipleselectionlibrary.RadioGroupForMarketLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/rg_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,7 +15,7 @@
         app:layoutContent="选择一,选择二,选择三,选择四,选择一百一十一"
         app:layoutTitle="单选" />
 
-    <cn.photon.multiple.RadioGroupForMarketLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    <cn.photon.multipleselectionlibrary.RadioGroupForMarketLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/rg_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

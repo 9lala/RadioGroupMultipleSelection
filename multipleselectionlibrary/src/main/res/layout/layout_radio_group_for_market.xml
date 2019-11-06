@@ -18,14 +18,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dp_8"
-            android:text="标题"
+            android:text=""
             android:textColor="@color/baseColor"
             android:textSize="@dimen/sp_13" />
     </LinearLayout>
 
-    <cn.photon.multiple.FlowRadioGroup
+    <cn.photon.multipleselectionlibrary.FlowRadioGroup
         android:id="@+id/flow_rg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/dp_10"></cn.photon.multiple.FlowRadioGroup>
+        android:layout_marginTop="@dimen/dp_10" />
+
 </LinearLayout>

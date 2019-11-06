@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':multipleselectionlibrary'
 rootProject.name = 'RadioGroup'

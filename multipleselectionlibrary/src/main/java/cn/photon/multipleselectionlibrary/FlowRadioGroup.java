@@ -1,10 +1,9 @@
-package cn.photon.multiple;
+package cn.photon.multipleselectionlibrary;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.RadioGroup;
-
 
 import java.util.ArrayList;
 import java.util.List;

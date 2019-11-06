@@ -1,4 +1,4 @@
-package cn.photon.multiple;
+package cn.photon.multipleselectionlibrary;
 
 
 /**
