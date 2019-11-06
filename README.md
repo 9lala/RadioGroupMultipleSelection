@@ -6,6 +6,7 @@ RadioGroupMultipleSelection
 ![截图](https://raw.githubusercontent.com/9lala/RadioGroupMultipleSelection/master/screenshot/GIF.gif)
 
 # 使用方法
+```
   <cn.photon.multiple.RadioGroupForMarketLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/rg_1"
         android:layout_width="match_parent"
@@ -21,3 +22,4 @@ RadioGroupMultipleSelection
         app:layoutContent="选择一,选择二,选择三,选择四,选择五,选择六,选择一百一十一"
         app:layoutTitle="多选"
         app:layoutType="multiple_selection" />
+```
