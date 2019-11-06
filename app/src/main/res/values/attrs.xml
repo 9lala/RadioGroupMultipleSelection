@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="layoutTitle" format="string" />
+    <attr name="layoutContent" format="string" />
+    <attr name="layoutType">
+        <enum name="single_selection" value="1" />
+        <enum name="multiple_selection" value="2" />
+    </attr>
+
+    <declare-styleable name="RadioGroupLayout">
+        <attr name="layoutTitle" />
+        <attr name="layoutContent" />
+        <attr name="layoutType" />
+    </declare-styleable>
+</resources>
