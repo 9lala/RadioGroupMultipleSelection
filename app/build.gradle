@@ -32,5 +32,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.jakewharton:butterknife:10.0.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
-    implementation project(path: ':multipleselectionlibrary')
+    implementation 'com.github.9lala:RadioGroupMultipleSelection:1.0.0'
+//    implementation project(path: ':multipleselectionlibrary')
 }
