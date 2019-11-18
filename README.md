@@ -6,6 +6,12 @@ RadioGroupMultipleSelection
 ![截图](https://raw.githubusercontent.com/9lala/RadioGroupMultipleSelection/master/screenshot/GIF.gif)
 
 # 使用方法
+
+```
+ 引入依赖
+ 
+ implementation 'com.github.9lala:RadioGroupMultipleSelection:Tag'
+```
 ```
   <cn.photon.multiple.RadioGroupForMarketLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/rg_1"
@@ -23,3 +29,4 @@ RadioGroupMultipleSelection
         app:layoutTitle="多选"
         app:layoutType="multiple_selection" />
 ```
+
