@@ -29,6 +29,7 @@ public class RadioGroupForMarketLayout extends LinearLayout implements CompoundB
 
     private String mTitle = "标题";
     private String mContent = "内容1,内容2";
+    private String currentSelectStr = "";
 
     /**
      * 记录多选信息
@@ -131,9 +132,13 @@ public class RadioGroupForMarketLayout extends LinearLayout implements CompoundB
                             if (mListener != null) {
                                 mListener.onclick(value);
                             }
+                            if (currentSelectStr.equals(value)) {
+                                return;
+                            }
                             if (mSelectListener != null) {
                                 mSelectListener.onSelect();
                             }
+                            currentSelectStr = value;
                         }
                     }
                 }
@@ -157,9 +162,9 @@ public class RadioGroupForMarketLayout extends LinearLayout implements CompoundB
             if (mListener != null) {
                 mListener.onclick(Arrays.toString(list.toArray(new String[0])));
             }
-            if (mSelectListener != null) {
-                mSelectListener.onSelect();
-            }
+//            if (mSelectListener != null) {
+//                mSelectListener.onSelect();
+//            }
         }
     }
 
