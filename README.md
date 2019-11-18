@@ -10,7 +10,7 @@ RadioGroupMultipleSelection
 ```
  引入依赖
  
- implementation 'com.github.9lala:RadioGroupMultipleSelection:Tag'
+ implementation 'com.github.9lala:RadioGroupMultipleSelection:1.1'
 ```
 ```
   <cn.photon.multiple.RadioGroupForMarketLayout xmlns:app="http://schemas.android.com/apk/res-auto"
